@@ -1,0 +1,321 @@
+
+/**header-section**/
+
+.header-section {
+    background: rgb(30, 53, 96);
+    padding: 10px 0;
+}
+.header-section p {
+    color: rgb(248, 248, 248);
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+.notice {
+    text-align: right;
+}
+.notice ul {
+    list-style: none;
+    margin: 0;
+}
+
+.notice ul li {
+    display: inline-block;
+}
+.notice ul li a {
+    color: rgb(176, 175, 175);
+    text-decoration: none;
+    font-size: 16px;
+    padding: 0 22px;
+}
+.notice ul .login {
+    border-left: 1px solid #9b9494;
+}
+
+
+
+
+.list {
+    margin: 0px 18px 0px 55px;
+}
+
+.list ul li a {
+    font-size: 17px;
+    font-weight: 600;
+    display: inline-block;
+    margin: 10px 10px;
+    color: #575757;
+}
+.list ul li a:hover {
+    color: rgb(36, 131, 75);
+}
+
+
+.list ul li {
+    position: relative;
+}
+.list ul li ul {
+    position: absolute;
+    width: 250px;
+    left: 0;
+    top: 160%;
+    background-color: #fafafa;
+    list-style: none;
+    padding: 10px;
+    box-shadow: 0px 0px 15px 0px rgba(4, 119, 56, 0.4);
+    opacity: 0;
+    visibility: hidden;;
+    transition: all .4s ease-in-out;
+}
+.list ul li:hover ul {
+    opacity: 1;
+    visibility: visible;
+    top: 100%
+}
+.list ul li ul li {
+    flex-direction: column;
+}
+.list ul li ul li a {
+    text-decoration: none;
+}
+.list ul li .active {
+    color: rgb(36, 131, 75);;
+ 
+}
+
+
+.form-control.mr-2 {
+    border-top: 0px;
+    border-left: 0pc;
+    border-bottom: 1px solid black;
+    border-radius: 0px;
+    border-right: 0px;
+    padding: 10px 0;
+    margin-top: -14px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: -1px;
+    width: 190px;
+}
+
+.form-control.mr-2 {
+    width: 190px;
+    padding: 0;
+    margin: -14px 0px 0px -1px;
+        margin-top: -14px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: -1px;
+}
+span {
+    font-size: 11px;
+}
+.form-control.mr-2 {
+    width: 190px;
+}
+
+.jontu2 {
+    position: absolute;
+}
+.jontu {
+    position: relative;
+    left: 165px;
+    bottom: -1px;
+    font-size: 15px;
+}
+
+/****slider-section-star **/
+
+.slider-section {
+    background: url('image/slider-2.jpg') no-repeat top center;
+        background-size: auto;
+    background-size: auto;
+    background-size: cover;
+    padding: 211px 0;
+}
+.slider-section h2 {
+    color: rgb(252, 252, 252);
+    font-size: 69px;
+    font-weight: 800;
+    padding-bottom: 53px;
+}
+.btn.btn-primary {
+    background: #10740d;
+    border: 0px;
+    border-radius: 0px;
+    padding: 15px 23px;
+    font-size: 20px;
+}
+.btn.btn-primary.jontu1 {
+    margin-left: 15px;
+    background: #251b6ca1;
+}
+
+/***educaton-courses **/
+ 
+.educaton-courses {
+    background: url('image/features.png') no-repeat top center;
+        background-size: auto;
+    background-size: cover;
+    padding: 226px 0;
+}
+.header-area h2 {
+    color: #0b1122;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+    padding: 93px 0 0px;
+}
+
+/* top-courses */
+
+.top-courses {
+    padding: 60px 40px;
+}
+.top-courses h2 {
+    font-size: 56px;
+    font-weight: 700;
+    color: #1c193c;
+}
+.top-courses p {
+    color: #13092f;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 42px 54px;
+    position: relative;
+}
+.top-courses p::before {
+    content: '';
+    top: -2px;
+    bottom: 15px;
+    width: 2px;
+    height: 74px;
+    background: #1c2951;
+    color: #1c2951;
+    position: absolute;
+    left: -51px;
+}
+
+/* student-activety **/
+
+.student-activety {
+    background-color: #181424;
+    padding: 60px 0;
+    color: rgb(245, 245, 245);
+}
+.student-activety h3 {
+    font-size: 43px;
+    font-weight: 700;
+}
+.student-activety p {}
+
+/*   Workshop-star  */
+
+.Workshop-star {
+    padding: 50px 0;
+}
+.workshop-content p {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+.workshop-content h4 {
+    color: #0a6c07;
+    font-weight: 700;
+    font-size: 28px;
+}
+.workshop-content h3 {
+    font-weight: 600;
+    color: #0c0746;
+}
+.workshop-content .btn.btn-primary {
+    padding: 6px;
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+/** subscribe-section **/
+
+.subscribe-section {
+    padding: 50px 0;
+    position: relative;
+}
+.sub-content {}
+.sub-content h2 {
+    font-weight: 800;
+    font-size: 52px;
+    color: #130335;
+}
+.sub-content hr {
+    background: #09052f;
+    color: #145fa2;
+    height: 12px;
+    font-size: 20px;
+    width: 214px;
+    padding: 2px;
+    margin: 24px 0;
+}
+
+.sub-content p {
+    font-weight: 600;
+    font-size: 18px;
+    color: #16044a;
+}
+.subscribe {
+    padding: 88px 40px 0px;
+}
+.subscribe input {
+    padding: 19px 182px 25px 25px;
+    border: 0px;
+    background: #d5d5d5;
+}
+.subscribe .btn.btn-primary {
+    padding: 20px 32px;
+    margin: 11px 10px 10px -4px;
+}
+
+/** footer-section */
+
+.footer-section {
+    padding: 150px 0px 50px;
+    background: red;
+    background-color: #273560;
+    color: white;
+}
+.footer-section h3 {
+    font-weight: 600;
+    font-size: 24px;
+    padding-bottom: 33px;
+}
+.footer-list p {
+    font-size: 19px;
+}
+.footer-list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-list ul li {
+
+}
+.footer-list ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    margin: 0;
+    padding: 10px 0;
+    display: inline-block;
+}
+.footer-list ul li a:hover {
+    text-decoration: underline;
+} 
+
+.footer2-section {
+    padding: 20px 0;
+}
+.footer2-section p {
+    margin: 0;
+    color: rgb(8, 22, 63);
+    font-size: 20px;
+}

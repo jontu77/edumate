@@ -1,0 +1,107 @@
+@media (max-width:1200px) {
+    .list ul li a {
+        font-size: 14px;
+        margin: 6px 4px;
+    }
+    .list {
+        margin: 0px 18px 0px 2px;
+    }
+}
+
+@media (max-width:1000px) {
+    .fa.fa-bars {
+        font-size: 32px;
+    }
+    .header-section p {
+        font-size: 27px;
+        text-align: center;
+    }
+    .notice ul .login {
+        border-left: 0px solid #9b9494;
+    }
+    .notice ul li a {
+        font-size: 16px;
+        padding: 0px 23px;
+    }
+    .notice {
+        text-align: center;
+        padding: 11px 0;
+    }
+    .header-area h2 {
+        font-size: 29px;
+        padding: 56px 0 0px;
+    }
+    .top-courses h2 {
+        font-size: 38px;
+    }
+    .student-activety .row > * {
+        border-bottom: 4px solid;
+        padding: 13px 0 12px;
+    }
+    .workshop-content.text-center {
+        margin-bottom: 54px;
+    }
+    .subscribe-section {
+        padding: 0px 0;
+    }
+    .sub-content h2 {
+        font-size: 43px;
+    } 
+    .footer-section .row > * {
+        flex-shrink: 0;
+        width: 25%;
+        max-width: 100%;
+        padding-right: calc(var(--bs-gutter-x) / 2);
+        padding-left: calc(var(--bs-gutter-x) / 2);
+        margin-top: var(--bs-gutter-y);
+    }
+}
+@media (max-width:768px) {
+    .slider-section h2 {
+        font-size: 51px;
+    }
+    .subscribe {
+        padding: 8px 40px 9px;
+    }
+    .footer-section .row > * {
+        flex-shrink: 0;
+        width: 50%;
+        max-width: 100%;
+        padding-right: calc(var(--bs-gutter-x) / 2);
+        padding-left: calc(var(--bs-gutter-x) / 2);
+        margin-top: var(--bs-gutter-y);
+        margin-bottom: 57px;
+    }
+    .footer2-section p {
+        margin: 0;
+        color: rgb(8, 22, 63);
+        font-size: 16px;
+    }
+    .educaton-courses {
+        padding: 89px 0;
+    }
+}
+@media (max-width:500px) {
+    .slider-section {
+        padding: 25px 0;
+    }
+    .slider-section h2 {
+        font-size: 32px;
+    }
+    .subscribe input {
+        padding: 19px 109px 25px 25px;
+        border: 0px;
+        background: #d5d5d5;
+    }
+    .footer-section .row > * {
+        width: 100%;
+        text-align: center;
+    }
+    .footer-list p {
+        font-size: 15px;
+    }
+    .footer-section {
+        padding: 31px 0px 21px;
+    }
+ 
+}
